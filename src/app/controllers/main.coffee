@@ -1,4 +1,4 @@
-app.controller 'MainController', ($scope, $q, soccerseasons) ->
+app.controller 'MainController', ($scope, soccerseasons) ->
   soccerseasons
     .getAllSeasons()
     .then (loadedData) ->
