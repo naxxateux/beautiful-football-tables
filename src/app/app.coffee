@@ -1,4 +1,5 @@
 appDependencies = [
+  'ngResource'
   'ngRoute'
   'once'
 ]
@@ -10,7 +11,7 @@ app = angular
     ($routeProvider, $locationProvider) ->
       $routeProvider
       .when '/',
-        controller: 'mainCtrl as main'
+        controller: 'MainController as main'
         templateUrl: 'pages/main.html'
       .otherwise redirectTo: '/'
 

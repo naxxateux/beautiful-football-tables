@@ -36,6 +36,7 @@ vendors =
     'node_modules/jquery/dist/jquery.min.js'
     'node_modules/d3/d3.min.js'
     'node_modules/angular/angular.min.js'
+    'node_modules/angular-resource/angular-resource.min.js'
     'node_modules/angular-route/angular-route.min.js'
     'node_modules/angular-once/once.js'
     'node_modules/lodash/lodash.js'
